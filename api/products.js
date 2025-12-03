@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const url = "https://cdn5.editmysite.com/app/store/api/v28/editor/users/43097125/sites/223996372125883883/products?page=1&per_page=3&sort_by=created_date&sort_order=desc&include=images,media_files,discounts";
+    const url = "https://cdn5.editmysite.com/app/store/api/v28/editor/users/43097125/sites/223996372125883883/products?page=1&per_page=40&sort_by=created_date&sort_order=desc&include=images,media_files,discounts";
 
     const response = await fetch(url, {
       headers: { "User-Agent": "Mozilla/5.0" }
